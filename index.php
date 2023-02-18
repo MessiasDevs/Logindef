@@ -38,38 +38,3 @@ if (isset($_POST['login']) || isset($_POST['senha'])) {
 }
 ?>
 
-
-<!DOCTYPE html>
-<html lang="BR">
-
-<head>
-  <meta charset="UTF-8">
-
-  <title>Login</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-
-<body>
-  <div class="login-box">
-    <h2>Login</h2>
-    <form method='POST' action='conexao.php'>
-      <div class="user-box">
-        <input type="text" name="" required="">
-        <label>Login</label>
-      </div>
-      <div class="user-box">
-        <input type="password" name="" required="">
-        <label>Senha</label>
-      </div>
-      <a href="#">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        ENTRAR
-      </a>
-  </div>
-  </form>
-</body>
-
-</html>
